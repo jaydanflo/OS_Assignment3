@@ -55,7 +55,7 @@ int main() {
         int overallMin = std::min(minFirstHalf, minSecondHalf);
         std::cout << "Overall minimum number in array: " << overallMin << std::endl;
 
-        wait(NULL); // Wait for child to finish
+        wait(NULL); 
     } else {
        
         std::cerr << "Fork failed!" << std::endl;
